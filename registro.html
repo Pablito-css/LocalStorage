@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/registros.css">
+</head>
+<body>
+    <div class="container-form">
+        <h2>Registrate</h2>
+        <form action="">
+
+            <label for="Usuario">Usuario:</label>
+            <input type="text" id="Usuario" placeholder="Digita tu usuario" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="email" placeholder="Digita tu correo electrónico" required>
+            
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" id="password" placeholder="Digita tu contraseña" required>
+            
+            <div class="form-actions">
+                <button type="button" class="btn btn-primary"onclick="RegistroUsuario()">Registrate</button>
+
+            </div>
+        </form>
+    </div>
+    <script src="./js/RegistroUsuario.js"></script>
+</body>
+</html>
